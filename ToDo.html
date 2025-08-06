@@ -10,8 +10,8 @@
     <div class="general">
         <h2>App To Do List</h2>
         <div class="form">
-            <p>Agrega una tarea</p>
-            <input type="text" id="nuevaTarea">
+            <label for="nuevaTarea">Ingresa una nueva tarea</label>
+            <input type="text" placeholder="Nueva tarea" id="nuevaTarea">
             <br>
             <button id="btnAgregar">Agregar tarea</button>
         </div>
@@ -30,11 +30,15 @@
                 </div>
             </div>
         </div>
+        <div class="cSes">
+            <button id="btnCerrar">Cerrar sesion</button>
+        </div>
     </div>
 
+    
 
 
-
-    <script src="src/js/ToDo.js"></script>
+<script src="src/js/ToDo.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
